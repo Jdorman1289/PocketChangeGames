@@ -44,6 +44,8 @@ const getGames = async () => {
         gameContainer.appendChild(card);
     });
 
+
+    //search function
     document.querySelector('.searchBTN').addEventListener('click', () => {
         let searchValue = document.querySelector("input").value;
         allGamesListToDisplay.forEach(game => {
